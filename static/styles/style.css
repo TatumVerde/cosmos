@@ -1,0 +1,135 @@
+
+body {
+    font-style: Georgia;
+    background: linear-gradient(360deg, #000000 0%, #000000 100%);
+}
+
+section a {
+    color: rgb(53, 27, 248);
+    text-decoration: none; 
+    font-style: italic;
+}
+ 
+a:hover {
+    text-decoration: underline; 
+  }
+
+nav {
+    background: linear-gradient(360deg, #0f095c 0%, #000000 100%);
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+a.nav-link,
+section {
+    color: rgb(165, 170, 235)
+}
+
+.nav-item:hover {
+    background-color: #858ce5;
+    border-radius: 15px; 
+}
+
+ div .navbar-nav .nav-link.active {
+    color:  rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.page1 {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+  }
+
+section .card {
+    width:330px;
+}
+
+.row.planets img ,
+.card {
+    background: radial-gradient( #170e8f 0%, #070000 100%);
+}
+
+div.container-fluid.sunsys,
+div.container-fluid3,
+div.container-fluid.page1,
+div.container-fluid.page2 {
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-bottom: 50px;
+}
+
+div.list-container {
+    float: right;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-style: none;
+    background: linear-gradient(360deg, #000000 0%, #0f095c 100%);
+}
+
+.list-container2 img {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+div h4 {
+    color: rgb(110, 94, 213);
+}
+
+video {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+div.list1 {
+    margin: 20px;
+    float: right;
+    background: linear-gradient(360deg, #000000 0%, #0f095c 100%);
+}
+
+.list-container3 img {
+    width: 700px;
+    float: right;
+}
+
+.table1 {
+    padding-left: 30px;
+    background: linear-gradient(360deg, #000000 0%, #0f095c 100%);
+}
+
+div.list2 {
+    margin-top: 40px;
+}
+
+div.list3 img {
+    width: 50%;
+    margin: 20px;
+}
+
+div .carousel-inner .row {
+    width: 70%; 
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+div .slide-text {
+    margin: auto auto;
+}
+
+div.list-container4 {
+    float: right;
+}
+
+div.list-container4 p {
+    background: linear-gradient(360deg, #0f095c 0%, #000000 100%);
+}
