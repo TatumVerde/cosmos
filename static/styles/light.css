@@ -1,0 +1,55 @@
+
+.light {
+    background: linear-gradient(360deg, #ffffff 0%, #d5d3f8 100%);
+}
+
+.light a.nav-link,
+.light section {
+    color: #0e0a42
+}
+
+
+
+.light button {
+    background: radial-gradient( #5142d6 0%, #000000 100%);
+    color: #b2aedb;
+}
+
+.light .nav-item:hover {
+    background-color: #ffffff;
+}
+
+.light  div .navbar-nav .nav-link.active {
+    color:  rgb(134, 86, 244);
+}
+
+.light .card {
+    background: linear-gradient(360deg, #ffffff 0%, #302992 100%);
+    border-style: none;
+}
+
+.light nav {
+    background: linear-gradient(360deg, #ffffff 0%, #6b64d2 100%);
+}
+
+.light .row.planets img {
+    background: radial-gradient( #ffffff 0%, #6b64d2 100%);
+}
+
+.light div.list-container,
+.light div.list1 {
+    background: linear-gradient( #ffffff 0%,  #cdcaf8 100%);
+}
+
+.light .table1 {
+    background: linear-gradient( #ffffff 0%,  #6b64d2 100%);
+}
+
+.light .carousel {
+    padding-bottom: 0px;
+}
+
+.light section.int {
+background: linear-gradient( #ffffff 0%,  #746ae6 100%);
+}
+

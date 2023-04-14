@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Сонячна система</title>
   <link rel="stylesheet" href="static/styles/style.css">
+  <link rel="stylesheet" href="static/styles/light.css">
   <link rel="apple-touch-icon" sizes="180x180" href="static/favicon_io (2)/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="static/favicon_io (2)/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="static/favicon_io (2)/favicon-16x16.png">
@@ -15,7 +16,7 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="dark">
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -41,9 +42,13 @@
           </ul>
         </div>
       </div>
+      <div class="container">
+        <button id="theme"><img src="static/images/sun.png" alt="7"></button>
+      </div>
+      <script src="index.js"></script>
     </nav>
   </header>
-  <section>
+  <section class="int">
     <div class="carousel">
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">

@@ -4,6 +4,26 @@ body {
     background: linear-gradient(360deg, #000000 0%, #000000 100%);
 }
 
+
+.dark {
+    background: black
+}
+
+button {
+    background: radial-gradient( #6b64d2 0%, #ffffff 100%);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px; 
+}
+
+button img {
+    width: 35px;
+}
+
+
 section a {
     color: rgb(53, 27, 248);
     text-decoration: none; 
@@ -132,4 +152,8 @@ div.list-container4 {
 
 div.list-container4 p {
     background: linear-gradient(360deg, #0f095c 0%, #000000 100%);
+}
+
+.navbar>.container.container {
+    justify-content: flex-end;
 }
