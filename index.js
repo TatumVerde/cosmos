@@ -10,3 +10,19 @@ const theme = document.querySelector("#theme");
             body.classList.add("dark");
           }
         });
+
+        function editText(event) {
+          var buttonId = event.target.id;
+
+          buttonId = '.' + buttonId;
+
+          var editableText = document.querySelector(buttonId);
+        
+          editableText.contentEditable = true;
+        
+          editableText.focus();
+        }
+
+        
+
+      

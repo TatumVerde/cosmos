@@ -41,12 +41,12 @@
               <a class="nav-link" href="interesting.html">Цікаві факти</a>
             </li>
           </ul>
-          
+
         </div>
-        
+
       </div>
       <div class="container">
-        <button id="theme"><img src="static/images/sun.png" alt="7"></button>
+        <button class="buttheme" id="theme"><img src="static/images/sun.png" alt="7"></button>
       </div>
       <script src="index.js"></script>
     </nav>
@@ -60,9 +60,10 @@
               <div class="card mercury">
                 <img src="static/images/mercury.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title"><a href="page1.html">Меркурій</a> </h5>
-                  <p class="card-text">найближча до Сонця, та найменша планета в Сонячній системі<a
+                  <h5 class="card-title"><a href="page1.html">Меркурій</a></h5>
+                  <p class="text-1">найближча до Сонця, та найменша планета в Сонячній системі<a
                       href="page1.html">>>></a></p>
+                  <button id="text-1" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -71,9 +72,10 @@
                 <img src="static/images/venus.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><a href="page2.html">Венера</a> </h5>
-                  <p class="card-text"> є другою планетою від Сонця і одна з найбільш схожих на Землю
+                  <p class="text-2"> є другою планетою від Сонця і одна з найбільш схожих на Землю
                     планет в Сонячній
                     системі<a href="page2.html">>>></a></p>
+                    <button id="text-2" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -81,9 +83,11 @@
               <div class="card">
                 <img src="static/images/earth.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page3.html">Планета Земля - </a> </h5>
-                  <p class="card-text"> це третя планета від Сонця та єдина планета відома,
+                  <p class="text-3"> це третя планета від Сонця та єдина планета відома,
                     на якій існує життя<a href="page3.html">>>></a></p>
+                    <button id="text-3" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -93,10 +97,12 @@
               <div class="card">
                 <img src="static/images/neptun.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page9.html">Нептун</a> </h5>
-                  <p class="card-text"> є восьмою та далекою планетою від Сонця та четвертим за
+                  <p class="text-4"> є восьмою та далекою планетою від Сонця та четвертим за
                     розміром газовим гігантом в
                     Сонячній системі<a href="page9.html">>>></a></p>
+                    <button id="text-4" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -104,11 +110,13 @@
               <div class="card">
                 <img src="static/images/sun.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page5.html">Сонце -</a> </h5>
-                  <p class="card-text"> це центральна зірка Сонячної системи, що є найбільшим
+                  <p class="text-5"> це центральна зірка Сонячної системи, що є найбільшим
                     об'єктом в Сонячній системі та
                     займає приблизно
                     99,86% всього маси Сонячної системи<a href="page5.html">>>></a></p>
+                    <button id="text-5" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -116,11 +124,13 @@
               <div class="card">
                 <img src="static/images/mars.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page4.html">Марс -</a> </h5>
-                  <p class="card-text"> четверта планета від Сонця в Сонячній системі, найближча до
+                  <p class="text-6"> четверта планета від Сонця в Сонячній системі, найближча до
                     Землі та одна з планет з
                     можливістю
                     життя<a href="page4.html">>>></a></p>
+                    <button id="text-6" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -130,10 +140,12 @@
               <div class="card">
                 <img src="static/images/uran.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page8.html">Уран -</a> </h5>
-                  <p class="card-text">це сьома планета від Сонця та третя за розміром газова
+                  <p class="text-7">це сьома планета від Сонця та третя за розміром газова
                     гігантська планета в Сонячній
                     системі<a href="page8.html">>>></a></p>
+                    <button id="text-7" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -141,9 +153,11 @@
               <div class="card">
                 <img src="static/images/saturn.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page7.html">Сатурн -</a> </h5>
-                  <p class="card-text">це шоста планета від Сонця та друга за розміром планета в
+                  <p class="text-8">це шоста планета від Сонця та друга за розміром планета в
                     Сонячній системі<a href="page7.html">>>></a></p>
+                    <button id="text-8" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>
@@ -151,9 +165,11 @@
               <div class="card">
                 <img src="static/images/jupitr.png" class="card-img-top" alt="...">
                 <div class="card-body">
+                  
                   <h5 class="card-title"><a href="page6.html">Юпітер</a> </h5>
-                  <p class="card-text"> є п'ятою планетою від Сонця та найбільшою планетою в Сонячній
+                  <p class="text-9"> є п'ятою планетою від Сонця та найбільшою планетою в Сонячній
                     системі<a href="page6.html">>>></a></p>
+                    <button id="text-9" onclick="editText(event)">Ред.</button>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@
 
 
 
-.light button {
+.light div .buttheme {
     background: radial-gradient( #5142d6 0%, #000000 100%);
     color: #b2aedb;
 }
@@ -49,7 +49,14 @@
     padding-bottom: 0px;
 }
 
-.light section.int {
-background: linear-gradient( #ffffff 0%,  #746ae6 100%);
+
+
+.light  div .carousel {
+    background:linear-gradient( #ffffff 0%, #d7d4fc 100%);
 }
 
+.light div .card-body button {
+    background: linear-gradient( #ffffff 0%,  #6b64d2 100%);
+    color: #0f0b47;
+   
+}

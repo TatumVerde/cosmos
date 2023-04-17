@@ -9,17 +9,17 @@ body {
     background: black
 }
 
-button {
+div .buttheme {
     background: radial-gradient( #6b64d2 0%, #ffffff 100%);
     color: #fff;
     padding: 5px 10px;
     border: none;
-    border-radius: 4px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 13px; 
 }
 
-button img {
+div .buttheme img {
     width: 35px;
 }
 
@@ -139,7 +139,7 @@ div.list3 img {
 div .carousel-inner .row {
     width: 70%; 
     margin: 0 auto;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 div .slide-text {
@@ -157,3 +157,16 @@ div.list-container4 p {
 .navbar>.container.container {
     justify-content: flex-end;
 }
+
+div .card-body button {
+    color: #858ce5;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: linear-gradient(360deg, #000000 0%, #0f095c 100%);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
