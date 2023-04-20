@@ -60,3 +60,8 @@
     color: #0f0b47;
    
 }
+
+.light .add-planet {
+    background: linear-gradient( #deddf5 0%,  #a7a1f6 100%);
+    color: #000000;
+}

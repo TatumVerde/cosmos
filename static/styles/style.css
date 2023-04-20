@@ -170,3 +170,25 @@ div .card-body button {
     cursor: pointer;
 }
 
+.add-planet {
+    color: #858ce5;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: linear-gradient(360deg, #000000 0%, #0f095c 100%);
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin: 50px;
+}
+
+
+
+.card h5 {
+    margin: 10px;
+    color: rgb(53, 27, 248);
+    text-decoration: none; 
+    font-style: italic;
+}
+
