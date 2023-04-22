@@ -192,3 +192,18 @@ div .card-body button {
     font-style: italic;
 }
 
+.newRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    
+    box-sizing: border-box;
+   
+}
+.newRow .col-lg-4 {
+    margin-bottom: 25px;
+}
+
